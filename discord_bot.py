@@ -1,8 +1,7 @@
 import discord
-import environment
 from discord.ext import commands
 
-TOKEN = environment.DISCORD_BOT_TOKEN
+TOKEN = "MTEzMTQ1MzkxNTY3NDcyNjQzMQ.G4gRcs.nLFP1hiifMAYoEXGU7XtBb0o6Ubup0FQmQAey4"
 
 intents = discord.Intents.default()
 intents.message_content = True
