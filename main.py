@@ -1,4 +1,3 @@
-from pprint import pprint
 import asyncio
 import json
 import aiohttp
@@ -43,6 +42,5 @@ async def main():
 if __name__ == '__main__':
     for ticker in TICKERS:
         kafka_manage.create_topic(BROKERS, ticker)
-
 
 asyncio.run(main())
